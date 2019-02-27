@@ -1,0 +1,39 @@
+header {
+    background: #94eeef;
+    display: block;
+    border-bottom: solid black 5px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2pc;
+    white-space: nowrap;
+    overflow: show;
+}
+
+nav {
+    justify-self: right;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0px;
+    
+}
+
+.nav-list li {
+    float: left;
+}
+
+li a {
+    padding: .5em;
+    text-transform: uppercase;
+    font-size: .8em;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10pc;
+}
+
+li a:hover {
+    background: #8E2BFF;
+}
