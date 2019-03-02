@@ -9,13 +9,15 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
