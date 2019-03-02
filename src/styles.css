@@ -1,34 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-
-body, html {
-    height: 100%;
-    margin: 0 auto;
-}
-
-body {
-    font-family: 'Montserrat';
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 1.3em;
-    display: grid;
-    grid-template-columns: 30% auto;
-}
-
-.container a {
-    color: white;
-}
-
-section {
-    width: 80%;
-    margin: 0 auto;
-    padding: 2em;
-}
+quill-editor {
+    display: block;
+  }
+  
+  .ng-invalid {
+    border: 1px dashed red;
+  }
+  
+  /* Set default font-family */
+  
+  [quill-editor-element] {
+    font-family: "Roboto";
+  }
+  
+  /* Set dropdown font-families */
+  
+  [quill-editor-toolbar] .ql-font span[data-label="Aref Ruqaa"]::before {
+    font-family: "Aref Ruqaa";
+  }
+  
+  [quill-editor-toolbar] .ql-font span[data-label="Mirza"]::before {
+    font-family: "Mirza";
+  }
+  
+  [quill-editor-toolbar] .ql-font span[data-label="Roboto"]::before {
+    font-family: "Roboto";
+  }
+  
+  /* Set content font-families */
+  
+  .ql-font-mirza {
+    font-family: "Mirza";
+  }
+  
+  .ql-font-aref {
+    font-family: "Aref Ruqaa";
+  }
+  
+  pre {
+    background-color: #fcfcfc;
+    padding: 5px;
+    border: 1px solid #b2b2b2;
+    color: #363030;
+  }
