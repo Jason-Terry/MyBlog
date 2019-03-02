@@ -1,3 +1,10 @@
-<p>
-  home works!
-</p>
+<div class="container">
+  <h1>Home</h1>
+  <!-- INPUT WITH TEXT AREA -->
+  <form [formGroup]="editorForm" (ngSubmit)="onSubmit()">
+    <div class="editor-wrapper">
+      <label for="editor"><h3>EDITOR</h3></label>
+      <quill-editor></quill-editor>
+    </div>
+  </form>
+</div>

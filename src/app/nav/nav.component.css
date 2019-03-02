@@ -1,7 +1,12 @@
 header {
     background: #94eeef;
-    display: block;
     border-bottom: solid black 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -9,31 +14,31 @@ header {
     font-size: 2pc;
     white-space: nowrap;
     overflow: show;
+    flex: 0;
 }
 
 nav {
-    justify-self: right;
+    flex: 0;
 }
 
 .nav-list {
     list-style-type: none;
     padding: 0px;
+    display: flex;
+    justify-content: flex-end;
     
 }
 
-.nav-list li {
-    float: left;
-}
-
-li a {
+.nav-list button {
     padding: .5em;
     text-transform: uppercase;
     font-size: .8em;
+    width: 100px;
     margin: 15px;
     border: 1px solid black;
     border-radius: 10pc;
 }
 
-li a:hover {
+button:hover {
     background: #8E2BFF;
 }
