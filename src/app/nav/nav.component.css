@@ -1,0 +1,12 @@
+.nav-bar {
+    background-color: #1c4444;
+    border: solid 1px #1c4444;
+    border-radius: 4px;
+}
+
+/* Temp, may be bad for mobile */
+.nav-wrapper {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+

@@ -1,16 +1,28 @@
-<header>
-  <div class="container">
-    <a routerLink="/" class="logo"> {{ appTitle }}</a>
-    <nav>
-      <div class="nav-list">
-        <button routerLink="/">HOME</button>
-        <button routerLink="/about">ABOUT</button>
-        <button routerLink="/posts">POSTS</button>
-        <button routerLink="/register">REGISTER</button>
-        <button routerLink="/login">LOGIN</button>
-        <button routerLink="/editor">EDITOR</button>
-        <button routerLink="/manage">MANAGE</button>
-      </div>
-    </nav>
-  </div>
+
+<header class="nav-bar">
+  <nav class="level">
+    <div class="level-item">
+      <!-- <p class="level-item has-text-centered"> -->
+        <a class="button is-large is-outlined is-rounded menu-btn-width" routerLink="/">HOME</a>
+      <!-- </p> -->
+      <!-- <p class="level-item has-text-centered"> -->
+        <a class="button is-large is-outlined is-rounded menu-btn-width" routerLink="/about">POSTS</a>
+      <!-- </p> -->
+    </div>
+    <p class="level-item">
+      <a routerLink="/">
+        <figure class="image">
+          <img class="" src="../../assets/Jason Terry.png" alt="Jason Terry">
+        </figure>
+      </a>
+    </p>
+    <div class="level-item">
+      <!-- <p class="level-item has-text-centered"> -->
+        <a class="button is-large is-outlined is-rounded menu-btn-width" routerLink="/posts">PROJECTS</a>
+      <!-- </p> -->
+      <!-- <p class="level-item has-text-centered"> -->
+        <a class="button is-large is-outlined is-rounded menu-btn-width" routerLink="/register">REGISTER</a>
+      <!-- </p> -->
+    </div>
+  </nav>
 </header>

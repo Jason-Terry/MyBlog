@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import "../node_modules/bulma/css/bulma.min.css";
 
+:root {
+    /* Color vars */
+    --rico: #69ccae; /* Primary Content*/
+    --tepapa-dark: #1c4444; /* Header-Footer */
+    --tepapa: #456666; /* Primary Backdrop*/
+    --ebony: #303136;  /* Secondary Backdrop*/
+    --eggs: #cbc8c2; /* Font */
+    --fog: #6a8689; /* Buttons? Gui? */
+}
 
- 
+* { outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); }
+* {
+    font-family: 'Montserrat' , Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--tepapa);
+}
+
+footer {
+    background-color: black;
+}
+
+.menu-btn-width {
+    min-width: 10%;
+}

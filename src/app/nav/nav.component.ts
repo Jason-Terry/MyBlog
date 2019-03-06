@@ -10,7 +10,8 @@ export class NavComponent implements OnInit {
 
   appTitle: string = 'JayCodes Blog';
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

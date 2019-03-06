@@ -13,6 +13,9 @@ import { EditorComponent } from './editor/editor.component';
 import { BlogPostComponent } from './blog-post/blog-post.component';
 import { RegisterComponent } from './register/register.component';
 import { ManageComponent } from './manage/manage.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ManageComponent } from './manage/manage.component';
     HomeComponent,
     BlogPostComponent,
     RegisterComponent,
-    ManageComponent
+    ManageComponent,
+    ProjectsComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
