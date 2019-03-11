@@ -10,7 +10,7 @@
     --fog: #6a8689; /* Buttons? Gui? */
 }
 
-* { outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); }
+/* * { outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); } */
 * {
     font-family: 'Montserrat' , Arial, Helvetica, sans-serif;
 }
@@ -23,6 +23,12 @@ footer {
     background-color: black;
 }
 
-.menu-btn-width {
-    min-width: 10%;
+/* Would like all buttons the same width. */
+.menu-btn {
+    margin: auto 5px;
+    width: 240px;
+}
+
+.is-horizontal-center {
+  justify-content: center;
 }
